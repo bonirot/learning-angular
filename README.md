@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+---
+
+## Local Installation (By me)
+
+- Instalación: npm install @angular/cli --save-dev
+- poner 'npx' delante de cada comando
+- ng new bases --no-standalone
+- ng new <nombre de la aplicación> --standalone false
