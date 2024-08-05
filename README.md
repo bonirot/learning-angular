@@ -32,5 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - Instalación: npm install @angular/cli --save-dev
 - poner 'npx' delante de cada comando
-- ng new bases --no-standalone
+- ng new bases --no-standalone (no standalone es para trabajar con un angular más fiel al originario y usar módulos)
+- marcar NO a SSR
 - ng new <nombre de la aplicación> --standalone false
+- npx ng serve (para runear el proyecto)
