@@ -36,3 +36,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - marcar NO a SSR
 - ng new <nombre de la aplicación> --standalone false
 - npx ng serve (para runear el proyecto)
+
+Cada carpeta dentro de 'app' va a ser un módulo. Va a ser un ente que funcione por sí solo.
+
+## Comandos
+
+- (npx) ng g component (puedo escribir 'c' solamente) <nombrecarpeta>. Ej.: npx ng g c heroes/hero
