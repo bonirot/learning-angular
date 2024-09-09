@@ -42,3 +42,5 @@ Cada carpeta dentro de 'app' va a ser un módulo. Va a ser un ente que funcione 
 ## Comandos
 
 - (npx) ng g component (puedo escribir 'c' solamente) <nombrecarpeta>. Ej.: npx ng g c heroes/hero
+- \*ngIf
+- \*ngFor
