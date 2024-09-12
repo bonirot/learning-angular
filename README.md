@@ -35,7 +35,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - ng new bases --no-standalone (no standalone es para trabajar con un angular más fiel al originario y usar módulos)
 - marcar NO a SSR
 - ng new <nombre de la aplicación> --standalone false
-- npx ng serve (para runear el proyecto)
+- npx ng serve / npm start (para runear el proyecto)
+- ng g m nombreNuevoModulo / npx ng g m nombreNuevoModulo (el primero es si tienes angular en global y el segundo en local)
 
 Cada carpeta dentro de 'app' va a ser un módulo. Va a ser un ente que funcione por sí solo.
 
