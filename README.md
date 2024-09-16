@@ -36,7 +36,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - marcar NO a SSR
 - ng new <nombre de la aplicación> --standalone false
 - npx ng serve / npm start (para runear el proyecto)
-- ng g m nombreNuevoModulo / npx ng g m nombreNuevoModulo (el primero es si tienes angular en global y el segundo en local)
 
 Cada carpeta dentro de 'app' va a ser un módulo. Va a ser un ente que funcione por sí solo.
 
@@ -48,6 +47,10 @@ Cada carpeta dentro de 'app' va a ser un módulo. Va a ser un ente que funcione 
 
 ## Crear componentes
 
-botón dcho en la carpeta de componentes > Angular Schematics: Generate file > escribir el nombre del componente > common component > OK
+- Crear un nuevo componente: ng g c carpeta/components/nombreDelComponenteNuevo / npx ng g c carpeta/components/nombreDelComponenteNuevo (el primero es si tienes angular en global y el segundo en local)
+- Crear un nuevo modulo: ng g m nombreNuevoModulo / npx ng g m nombreNuevoModulo (el primero es si tienes angular en global y el segundo en local)
 
-asegurarme de que ese componente nuevo aparezca en el module.
+- Angular Schematics:
+
+Botón dcho en la carpeta de componentes > Angular Schematics: Generate file > escribir el nombre del componente > common component > OK
+Asegurarme de que ese componente nuevo aparezca en el module.
