@@ -45,3 +45,9 @@ Cada carpeta dentro de 'app' va a ser un módulo. Va a ser un ente que funcione 
 - (npx) ng g component (puedo escribir 'c' solamente) <nombrecarpeta>. Ej.: npx ng g c heroes/hero
 - \*ngIf si un valor es verdadero, muestra el elemento
 - \*ngFor
+
+## Crear componentes
+
+botón dcho en la carpeta de componentes > Angular Schematics: Generate file > escribir el nombre del componente > common component > OK
+
+asegurarme de que ese componente nuevo aparezca en el module.
