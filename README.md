@@ -54,3 +54,10 @@ Cada carpeta dentro de 'app' va a ser un módulo. Va a ser un ente que funcione 
 
 Botón dcho en la carpeta de componentes > Angular Schematics: Generate file > escribir el nombre del componente > common component > OK
 Asegurarme de que ese componente nuevo aparezca en el module.
+
+## Decorador Input()
+
+puedo cambiarle el nombre de la propiedad de pongo algo entrecomillado en los paréntesis, de lo contrario adopta el nombre de la propiedad a la que se refiere.
+
+Una vez colocado el decorador, ya puedo acceder a la información de la MainPage desde cualquier componente de esta manera
+`<dbz-list [characterList]="characters"></dbz-list>`
