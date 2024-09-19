@@ -39,6 +39,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Cada carpeta dentro de 'app' va a ser un módulo. Va a ser un ente que funcione por sí solo.
 
+## General
+
+- Los () son para indicar un evento y las [] son para indicar un atributo.
+- El ngModule requiere importar el FormModule
+
 ## Comandos
 
 - (npx) ng g component (puedo escribir 'c' solamente) <nombrecarpeta>. Ej.: npx ng g c heroes/hero
